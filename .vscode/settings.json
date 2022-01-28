@@ -3,6 +3,7 @@
         "ipynb",
         "ndarray",
         "pyplot",
+        "scipy",
         "sympy",
         "xlim",
         "ylim"
