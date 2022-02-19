@@ -3,8 +3,14 @@ from starlette.requests import Request
 
 app = FastAPI()
 
+def masao(request: Request):
+    return {"name" : "Masao",
+            "my-" : "father"}
+
 def mika(requests: Request):
-    return {"message" : "Mika"}
+    return {"message" : "Mika",
+            "my-" : "mother"}
 
 def masato(requests: Request):
-    return {"name" : "Masato"}
+    return {"name" : "Masato",
+            "my-": ""}
