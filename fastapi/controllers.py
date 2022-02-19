@@ -3,5 +3,8 @@ from starlette.requests import Request
 
 app = FastAPI()
 
-def index(requests: Request):
-    return {"message" : "Hello"}
+def mika(requests: Request):
+    return {"message" : "Mika"}
+
+def masato(requests: Request):
+    return {"name" : "Masato"}
