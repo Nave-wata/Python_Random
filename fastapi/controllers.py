@@ -1,13 +1,11 @@
-from fastapi import FastAPI, Depends
-from fastapi.security import OAuth2PasswordBearer
+from fastapi import FastAPI
 from starlette.requests import Request
 
 app = FastAPI()
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
-
-async def read_items(request: Request, token: str = Depends(oauth2_scheme)):
-    return {"token": token}
 
 def base(request: Request):
     return {"message" : "Hello World!"}
 
+def one(request: Request):
+    a: int = 1
+    return {"Number" : {a}}
