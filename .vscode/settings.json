@@ -4,7 +4,9 @@
         "ndarray",
         "pyplot",
         "scipy",
+        "starlette",
         "sympy",
+        "uvicorn",
         "xlim",
         "ylim"
     ]
