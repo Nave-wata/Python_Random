@@ -7,10 +7,10 @@ def base(request: Request):
     return {"message" : "Hello World!"}
 
 def one(request: Request):
-    return {"Number" : 1}
+    return 1
 
 def two(request: Request):
-    return {"Number" : 2}
+    return 2
 
 def three(request: Request):
-    return {"Number" : 3}
+    return 3
