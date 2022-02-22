@@ -10,3 +10,4 @@ Python 3.10.2
 ## Directory
 
 - [OIT_math](https://github.com/Nave-wata/Python_Random/tree/main/OIT_math)
+- [fastapi](https://github.com/Nave-wata/Python_Random/tree/main/fastapi)
