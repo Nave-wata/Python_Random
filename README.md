@@ -1,3 +1,1 @@
 # Python_Random
-
-flaskやってみる
